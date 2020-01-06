@@ -1,0 +1,15 @@
+- Tambah tahun ajaran di admin/input siswa
+- Fix bug upload foto
+- Hapus input password di siswa/edit profil
+- Siswa sekarang bisa melihat biodata sendiri dan bisa edit data profil dengan syarat siswa belum di verifikasi admin apabila sudah di verifikasi tombol edit di sembunyikan
+- Ditambahkan Output siswa bentuk cv di siswa/data siswa
+- Label jumlah tagihan di admin/input pembayaran dirubah ke Cicilan pertama
+- Ditambahkan input cicilan kedua di admin/input pembayaran
+- Desain database dirubah di tb_siswa ditambahkan id_kelas dan ditambahkan relasi dengan tb_kelas sifat Ondelete cascade onupdate cascade, kolom id_kelas di tb_pembayaran dihapus karena siswa lah ado relasi dengan tb_kelas
+- Ditambahkan kolom nis di admin/ubah pembayaran
+- Memaksakan admin hanya bisa menambahkan data pembayaran dengan persiswa perbulan dan pertahun
+- Ditambahkan kolom sisa tagihan dan status pembayaran
+- Tabel data pembayaran di kepsek/data pembayaran ditambahkan margin dan ditambahkan kolom sisa tagihan dan status pembayaran
+- Perubahan fungsi cekApakahJmlPembayaranBerlebih di model_pembayaran
+- Penambahan kolom cicilan di data tabel pembayaran di seluruh pengguna
+-
